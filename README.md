@@ -1,5 +1,5 @@
 # Visualizations-on-the-History-of-Chemistry
- Interesting, high-quality and visually appealing results from a large-scale research project on the Histoy of Chemistry from publications metadata over than 200 years (1822-2023).
+ Insightful, high-quality, visually appealing results from a large-scale research project on the Histoy of Chemistry from publications metadata over than 200 years (1822-2023).
 
 
 ## 🔍 Highlights
