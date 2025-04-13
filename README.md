@@ -19,4 +19,4 @@
 
  **Collaborators:** 
   - [Jürgen Jost (MPI-MiS)](https://de.wikipedia.org/wiki/J%C3%BCrgen_Jost)
-  - [Duc H. Luu (MPI-MiS)]
+  - [Duc H. Luu (MPI-MiS)](https://scholar.google.com/citations?user=GEt6qKUAAAAJ&hl=en)
