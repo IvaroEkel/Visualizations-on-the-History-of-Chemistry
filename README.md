@@ -12,6 +12,7 @@
 
 ## 🎞️ Annimated insights 
 Annual activity of publication by city. Each dot indicates the location of the city of affiliation in one or more papers in a given year. 
+
 ![Accumulated frequency per city, displayed annually](assets/maps-acc-maps_acc_freq_improved-200dpi_1413x524-2fps.gif)
 
 The number of times a given city appears in the affiliations section in a publication, in a given year, is its frequency of appearance in the record. The accumulated frequency is thus, the total number of times that a city has been mentioned in publications up to a given year, and it is indicated by the color of the dots (corresponding with the colorbar in the right of the plot). The size of the dots is nonlinearly associated to the accumulated frequency, following a piecewise constant function.
