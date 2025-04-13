@@ -7,11 +7,11 @@
 - 📊 Publication trends across decades and subfields  
 - 🌐 Global collaboration and co-authorship maps  
 - 🔁 Citation network structures and their evolution  
-- 🎞️ Animated insights into research hotspots over time  
+- 🎞️ [Animated insights into research hotspots over time](##🎞️ Annimated insights )
 - 📈 Interactive dashboards and visual tools (coming soon)
 
-## 🎞️ Annual activity of publication by city: 
-
+## 🎞️ Annimated insights 
+Annual activity of publication by city
 ![Accumulated frequency per city, displayed annually](assets/maps-acc-maps_acc_freq_improved-200dpi_1413x524-2fps.gif)
 
 
