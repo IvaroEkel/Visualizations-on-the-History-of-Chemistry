@@ -1,2 +1,118 @@
-<link rel="stylesheet" href="css/style.css" />
-<script src="js/main.js" defer></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChemSight: Visual Explorations in Chemistry Metadata</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #3b82f6;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #e0e7ff;
+    }
+
+    nav button {
+      background: none;
+      border: none;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    nav button:hover, nav button.active {
+      background-color: #c7d2fe;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 2rem;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .gif-container {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .gif-container img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ChemSight</h1>
+    <p>Visual Explorations in Chemistry Metadata</p>
+  </header>
+
+  <nav>
+    <button class="tablink active" data-tab="overview">Overview</button>
+    <button class="tablink" data-tab="animations">Animations</button>
+    <button class="tablink" data-tab="maps">Maps</button>
+  </nav>
+
+  <section id="overview" class="tab-content active">
+    <h2>Welcome</h2>
+    <p>This project showcases visual and interactive insights from a large-scale analysis of metadata in chemistry publications. Explore animations, maps, and charts revealing surprising patterns in collaboration, citation, and research trends.</p>
+  </section>
+
+  <section id="animations" class="tab-content">
+    <h2>Animated Visuals</h2>
+    <div class="gif-container">
+      <img src="assets/your-animation.gif" alt="Chemistry Metadata Animation" />
+    </div>
+    <p>These animated visuals highlight dynamic trends in chemical research over time.</p>
+  </section>
+
+  <section id="maps" class="tab-content">
+    <h2>Global Maps</h2>
+    <p>Geographical visualizations of authorship and collaboration networks in chemistry.</p>
+  </section>
+
+  <script>
+    const tabButtons = document.querySelectorAll('.tablink');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(tab => tab.classList.remove('active'));
+
+        button.classList.add('active');
+        document.getElementById(button.getAttribute('data-tab')).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
+<!--
+  This HTML file serves as the main page for the ChemSight project, providing an overview of the project, animated visuals, and maps.
+  The CSS styles are embedded for simplicity, and JavaScript is used to handle tab navigation.
+  Ensure to replace 'assets/your-animation.gif' with the actual path to your GIF file.
