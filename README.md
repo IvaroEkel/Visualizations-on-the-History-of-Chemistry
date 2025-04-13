@@ -19,4 +19,5 @@ Annual activity of publication by city
 
  **Collaborators:** 
   - [Jürgen Jost (MPI-MiS)](https://de.wikipedia.org/wiki/J%C3%BCrgen_Jost)
+  - [Sayan Mukherjee (ScaDS.AI - University of Leipzig)](https://www.humboldt-foundation.de/en/explore/newsroom/dossier-alexander-von-humboldt-professorship/sayan-mukherjee)
   - [Duc H. Luu (MPI-MiS)](https://scholar.google.com/citations?user=GEt6qKUAAAAJ&hl=en)
