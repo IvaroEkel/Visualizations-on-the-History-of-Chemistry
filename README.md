@@ -4,10 +4,10 @@
 
 ## 🔍 Highlights
 
+- 🎞️ [Animated insights into research hotspots over time](#annimated-insights)
 - 📊 Publication trends across decades and subfields  
 - 🌐 Global collaboration and co-authorship maps  
 - 🔁 Citation network structures and their evolution  
-- 🎞️ [Animated insights into research hotspots over time](#annimated-insights)
 - 📈 Interactive dashboards and visual tools (coming soon)
 
 ## 🎞️ Annimated insights 
